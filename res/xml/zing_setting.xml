@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/row_number" >
+        <EditTextPreference
+            android:dialogTitle="@string/set_max_row_numbers"
+            android:key="@string/set_max_row_numbers_key"
+            android:negativeButtonText="@string/cancel"
+            android:positiveButtonText="@string/confirm"
+            android:title="@string/set_max_row_numbers"
+            android:numeric="integer"
+            android:maxLength = "2"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/language" >
+        <CheckBoxPreference
+            android:key="@string/customer_language_key"
+            android:summaryOff="@string/system_language"
+            android:summaryOn="@string/customer_language"
+            android:title="@string/customer_language" />
+
+        <ListPreference
+            android:dependency="@string/customer_language_key"
+            android:dialogTitle="@string/select_language"
+            android:entries="@array/language_entries"
+            android:entryValues="@array/language_values"
+            android:key="@string/select_language_key"
+            android:negativeButtonText="@string/cancel"
+            android:title="@string/select_language" android:summary="@string/effective_after_restart"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -3,5 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ZingMainActivity" >
+    
+    <ListView
+        android:id="@+id/clip_list_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3px"
+        android:layout_marginRight="3px">
+    </ListView>
 
 </RelativeLayout>

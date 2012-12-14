@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Zing</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">设置</string>
+    <string name="about">关于</string>
+    <string name="close">关闭</string>
+    <string name="current_clip_content">当前剪切板内容</string>
+    <string name="all_be_deleted">已删除全部</string>
+    <string name="has_been_deleted">已被删除</string>
+    <string name="added_time">添加时间</string>
+    <string name="content">内容</string>
+    <string name="detail">详情</string>
+    <string name="delete_this">删除此条</string>
+    <string name="delete_all">删除全部</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="are_you_sure_to_delete_all">您确定要删除全部吗?</string>
+    <string name="row_number">列表行数设置</string>
+    <string name="set_max_row_numbers_key">set_max_row_numbers_key</string>
+	<string name="set_max_row_numbers">设置最大行数</string>
+	<string name="language">语言</string>
+	<string name="customer_language_key">customer_language_key</string>
+	<string name="customer_language">自定义语言</string>
+	<string name="select_language_key">select_language_key</string>
+	<string name="select_language">选择语言</string>
+	<string name="system_language">系统语言</string>
+	<string name="effective_after_restart">重启后生效</string>
+	
+	<string name="icon_from">部分图标的版权所有者为</string>
+	<string name="icon_webset">www.iconblock.com</string>
+	<string name="connect_us">联系我们</string>
+	<string name="email_yvelabs">yvelabs@gmail.com</string>
+
+</resources>

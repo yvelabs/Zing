@@ -27,10 +27,16 @@
 	<string name="select_language">选择语言</string>
 	<string name="system_language">系统语言</string>
 	<string name="effective_after_restart">重启后生效</string>
-	
 	<string name="icon_from">部分图标的版权所有者为</string>
 	<string name="icon_webset">www.iconblock.com</string>
 	<string name="connect_us">联系我们</string>
 	<string name="email_yvelabs">yvelabs@gmail.com</string>
+	
+	<string name="zing_2.0_feedback">Zing 2.0 feedback</string>
+	<string name="send_sms">发送短信</string>
+	<string name="sending_sms">正在发送短信...</string>
+	<string name="send_email">发送Email</string>
+	<string name="sending_email">正在Email...</string>
+	<string name="feedback">反馈</string>
 
 </resources>

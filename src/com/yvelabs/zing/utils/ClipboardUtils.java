@@ -14,6 +14,6 @@ public class ClipboardUtils {
 
 	public static void setCurrentClipContent(Context context, String clipContent) {
 		ClipboardManager clipboardManager = (ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
-		clipboardManager.setText(clipContent);
+		clipboardManager.setText(clipContent); 
 	}
 }
